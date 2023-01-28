@@ -18,17 +18,29 @@
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout">
       <item>
-       <widget class="QWidget" name="widget_2" native="true">
+       <widget class="QWidget" name="start" native="true">
         <widget class="QWidget" name="app_id_window" native="true">
          <property name="geometry">
           <rect>
-           <x>360</x>
-           <y>150</y>
-           <width>371</width>
-           <height>441</height>
+           <x>300</x>
+           <y>90</y>
+           <width>521</width>
+           <height>501</height>
           </rect>
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <widget class="QLabel" name="label_16">
+            <property name="font">
+             <font>
+              <pointsize>14</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Введите все необходимые данные </string>
+            </property>
+           </widget>
+          </item>
           <item>
            <widget class="QLabel" name="label_7">
             <property name="font">
@@ -42,10 +54,10 @@
            </widget>
           </item>
           <item>
-           <widget class="QLineEdit" name="lineEdit_9"/>
+           <widget class="QLineEdit" name="Enter_ID"/>
           </item>
           <item>
-           <widget class="QPushButton" name="pushButton_5">
+           <widget class="QPushButton" name="Get_Code">
             <property name="font">
              <font>
               <pointsize>10</pointsize>
@@ -69,7 +81,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QLineEdit" name="lineEdit_10"/>
+           <widget class="QLineEdit" name="Code_Link"/>
           </item>
           <item>
            <widget class="QLabel" name="label_12">
@@ -97,7 +109,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QLineEdit" name="lineEdit_11"/>
+           <widget class="QLineEdit" name="Enter_Code"/>
           </item>
           <item>
            <widget class="QLabel" name="label_14">
@@ -112,10 +124,10 @@
            </widget>
           </item>
           <item>
-           <widget class="QLineEdit" name="lineEdit_12"/>
+           <widget class="QLineEdit" name="Enter_Protect"/>
           </item>
           <item>
-           <widget class="QPushButton" name="pushButton_6">
+           <widget class="QPushButton" name="Continue">
             <property name="font">
              <font>
               <pointsize>10</pointsize>
@@ -131,7 +143,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QWidget" name="widget" native="true">
+       <widget class="QWidget" name="menu" native="true">
         <widget class="QWidget" name="widget_3" native="true">
          <property name="geometry">
           <rect>
@@ -155,7 +167,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QPushButton" name="pushButton_7">
+           <widget class="QPushButton" name="Album">
             <property name="font">
              <font>
               <pointsize>12</pointsize>
@@ -167,7 +179,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QPushButton" name="pushButton_9">
+           <widget class="QPushButton" name="Del_Ban_Friends">
             <property name="font">
              <font>
               <pointsize>12</pointsize>
@@ -179,7 +191,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QPushButton" name="pushButton_8">
+           <widget class="QPushButton" name="Del_AFK_Friends">
             <property name="font">
              <font>
               <pointsize>12</pointsize>
@@ -191,7 +203,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QPushButton" name="pushButton_10">
+           <widget class="QPushButton" name="Download_Photo">
             <property name="font">
              <font>
               <pointsize>12</pointsize>
@@ -203,7 +215,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QPushButton" name="pushButton_11">
+           <widget class="QPushButton" name="Del_Publics">
             <property name="font">
              <font>
               <pointsize>12</pointsize>
@@ -215,7 +227,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QPushButton" name="pushButton_12">
+           <widget class="QPushButton" name="Del_Noti">
             <property name="font">
              <font>
               <pointsize>12</pointsize>
@@ -227,7 +239,7 @@
            </widget>
           </item>
           <item>
-           <widget class="QPushButton" name="pushButton_13">
+           <widget class="QPushButton" name="Establish_Status">
             <property name="font">
              <font>
               <pointsize>12</pointsize>
